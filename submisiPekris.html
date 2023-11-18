@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Roboto">
+
+    <style>
+        body{
+            font-family: Roboto;
+        }
+        .container{
+            height: 100vh;
+            display: flex;
+            gap: 0;
+        }
+        .inner-container2{
+            display: flex;
+            flex-direction: row;
+            gap: 5%;
+        }
+        .inner-container3{
+            display: flex;
+            flex-direction: column;
+            gap: 5%;
+        }
+        .inner-container{
+            width: 50%;
+        }
+        .grid-container{
+            display: grid;
+            justify-content: space-evenly;
+            align-content: space-evenly;
+            grid-template-columns: 20% 20% 20%;
+            gap: 5% 5%;
+        }
+        .dark-blue{
+            background-color: #002d2e;
+        }
+        .cyan{
+            background-color: #08c9a9;
+        }
+        .pink-red{
+            background-color: #c90435;
+        }
+        .black{
+            background-color: black;
+        }
+        .center{
+            width: 50%;
+            height: 50%;
+            margin: auto;
+        }
+        .white-text{
+            color: white;
+        }
+        .black-text{
+            color: black;
+        }
+        .pink-text{
+            background-color: #c90435;
+        }
+        .button-pink{
+            width: 100px;
+            height: 20px;
+            justify-content: center;
+            align-content: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="inner-container dark-blue">
+            <div class="center">
+                <h1 class="white-text">YOU CAN</h1>
+                <h1 class="white-text">HIRE FREELANCER</h1>
+                <h1 class="white-text">HERE</h1>
+                <p class="white-text">It is a long established fact that a reader will be distracted by the readable content of a page</p>
+                <div>
+                    <!-- TODO:style this button -->
+                    <button>About Us</button>
+                    <button>Get A Quote</button>
+                </div>
+            </div>
+        </div>
+        <div class="inner-container cyan">
+            <div class="center">
+                <img src="./images/slider-img.png" alt="slider image">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="inner-container" style="margin-right: 5%;">
+            <img src="./images/experience-img.jpg" alt="experience image">
+        </div>
+        <div>
+            <h1 style="margin-bottom: 20px;">BEST EXPERINCED FREELANCER HERE</h1>
+            <p style="margin-bottom: 20px;">it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more=or-less normal distribution of letters, as</p>
+            <div>
+                <button class="pink-red white-text">Read More</button>
+                <button class="black white-text">Hire</button>
+            </div>
+        </div>
+    </div>
+    <div class="container cyan" style="justify-content: center;">
+        <div style="margin-top: 10%; margin-bottom: 10%;">
+            <h1><u>CATEGORY</u></h1>
+            <div class="grid-container">
+                <div>
+                    <img src="./images/c1.png" alt="c1">
+                </div>
+                <div>
+                    <img src="./images/c2.png" alt="c2">
+                </div>
+                <div>
+                    <img src="./images/c3.png" alt="c3">
+                </div>
+                <div>
+                    <img src="./images/c4.png" alt="c4">
+                </div>
+                <div>
+                    <img src="./images/c5.png" alt="c5">
+                </div>
+                <div>
+                    <img src="./images/c6.png" alt="c6">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container white" style="justify-items: center; justify-content: center; flex-direction: column;">
+        <img src="./images/about-img.jpg" alt="about image">
+        <h1>ABOUT SPERING COMPANY</h1>
+        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believeable. If youThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form by injected humour, or randomised words which don't look even slightly believeable. If you</p>
+        <button>Read More</button>
+    </div>
+    <div class="container white">
+        <div class="inner-container" style="display: flex; flex-direction: column; gap: 5%; justify-content: center;">
+            <h1>WORK FREENLANER HAS DONE</h1>
+            <div class="inner-container2">
+                <div class="cyan" style="width: 100px; height: 100px; border-radius: 50%;">
+                    <img src="./images/f1.png" alt="f1">
+                </div>
+                <div class="inner-container3">
+                    <h2 class="pink-text">$250 Million</h2>
+                    <h1>Paid to Freelancers</h1>
+                </div>
+            </div>
+            <div class="inner-container2">
+                <div class="dark-blue" style="width: 100px; height: 100px; border-radius: 50%;">
+                    <img src="./images/f2.png" alt="">
+                </div>
+                <div class="inner-container3">
+                    <h2 class="pink-text">2 Million</h2>
+                    <h1>Paid Invoices</h1>
+                </div>
+            </div>
+            <div class="inner-container2">
+                <div class="dark-blue" style="width: 100px; height: 100px; border-radius: 50%;">
+                    <img src="./images/f3.png" alt="">
+                </div>
+                <div class="inner-container3">
+                    <h2 class="pink-text">700,000</h2>
+                    <h1>Worldwide Freelancer</h1>
+                </div>
+            </div>
+            <div class="inner-container2">
+                <div class="dark-blue" style="width: 100px; height: 100px; border-radius: 50%;">
+                    <img src="./images/f4.png" alt="">
+                </div>
+                <div class="inner-container3">
+                    <h2 class="pink-text"></h2>
+                    <h1>Customer</h1>
+                    <h1>Satisfaction Rate</h1>
+                </div>
+            </div>
+        </div>
+        <div class="inner-container" style="justify-content: center; align-content: center; justify-items: center; align-items: center;">
+            <img style="margin: auto; width: 50%; height: 50%;" src="./images/freelance-img.jpg" alt="">
+        </div>
+    </div>
+</body>
+</html>
